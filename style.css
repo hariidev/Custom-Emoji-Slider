@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: coral;
+}
+
+.wrapper {
+
+    background-color: red;
+    border-radius: 10px;
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.wrapper .section {
+
+    height: 150px;
+    width: 150px;
+}
+.section .emojis li {
+
+    list-style: none;
+}
+
+.section .emojis li img {
+
+    height: 100%;
+    width: 100%;
+}
